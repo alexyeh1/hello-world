@@ -41,7 +41,7 @@ def setupCliDeps(gitProto='http'):
         userRepoPrefix   = 'git@github.com:%s/' % (usrName)
         remoteRepoPrefix = 'git@github.com:%s/' % ('OpenSnaproute')
     else:
-        userRepoPrefix = 'https://github.com/%s/' % (usrName)
+        userRepoPrefix = 'https://github.com/OpenSnaproute/%s/' % (usrName)
         remoteRepoPrefix = 'https://github.com/%s/' % ('OpenSnaproute')
     _setupGitRepo('extpkgs',
                     setupHandler().getExtSrcDir(),
